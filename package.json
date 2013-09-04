@@ -27,7 +27,8 @@
     "hubot-hall":    "latest",
     "hubot":         ">= 2.6.0 < 3.0.0",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
-    "underscore": "*"
+    "underscore":    "*",
+    "scraper":       "0.0.9"
   },
 
   "engines": {
