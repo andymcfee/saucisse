@@ -2,7 +2,7 @@
   "redis-brain.coffee"
 , "shipit.coffee"
 , "beerme.coffee"
-, "advice.coffee"
+, "advice.coffee",
   "abstract.coffee",
   "achievement_unlocked.coffee",
   "ackbar.coffee",
@@ -30,13 +30,6 @@
   "faceup.coffee",
   "gemwhois.coffee",
   "giftv.coffee",
-  "git-help.coffee",
-  "github-activity.coffee",
-  "github-commiters.coffee",
-  "github-credentials.coffee",
-  "github-issue-link.coffee",
-  "github-issues.coffee",
-  "github-pulls.coffee",
   "google.coffee",
   "haters.coffee",
   "heroku-status.coffee",
