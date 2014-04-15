@@ -17,10 +17,14 @@ hellos = [
     "Good day, %",
     "Good 'aye!, %",
     "Salut %",
-    "Salut gros porc"
+    "HELLO! Oh wait, it's just %.",
+    "Salut gros porc",
+    "Looking good today, % ;)"
 ]
 mornings = [
     "Good morning, %",
+    "Is it really?",
+    "Buongiorno, %",
     "Good morning to you too, %",
     "Good day, %",
     "Good 'aye!, %"
