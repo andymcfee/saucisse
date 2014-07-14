@@ -40,8 +40,8 @@ module.exports = (robot) ->
       msg.send dialog
 
   # Make it possible to turn off a few of the more NSFW ones
-  unless process.env.HUBOT_ARCHER_SFW
+  #unless process.env.HUBOT_ARCHER_SFW
 
-    robot.hear /^benoit/i, (msg) ->
-      msg.send "balls"
+  #  robot.hear /^benoit/i, (msg) ->
+  #    msg.send "balls"
 
