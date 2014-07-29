@@ -11,7 +11,7 @@
 #   hubot bacon me - Grab me bacon
 #
 # Author:
-#  houndbee
+#  davzb
 
 bacon = [
   "http://beatricelevinsonnaturopath.com/wp-content/uploads/2013/05/bacon.jpg",
