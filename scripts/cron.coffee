@@ -2,7 +2,7 @@
 # Defines periodic executions
 module.exports = (robot) ->
   cronJob = require('cron').CronJob
-  tz = 'France/Paris'
+  tz = 'Europe/Paris'
   new cronJob('0 0 9 * * 1-5', workdaysNineAm, null, true, tz)
   new cronJob('0 */5 * * * *', everyFiveMinutes, null, true, tz)
   new cronJob('0 */1 * * * *', everyMinute, null, true, tz)
