@@ -18,7 +18,8 @@ benoits = [
   "gnocchino",
   "tapette",
   "gros porc",
-  "benwah wah wah"
+  "benwah wah wah",
+  "Judas"
 ]
 
 module.exports = (robot) ->
