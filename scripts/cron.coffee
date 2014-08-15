@@ -16,4 +16,4 @@ module.exports = (robot) ->
     robot.messageRoom room, 'I will nag you every 5 minutes'
 
   everyMinute = ->
-    robot.messageRoom room, 'I will nag you every minute'
+    robot.emit 'slave:command', 'minute'
