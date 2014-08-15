@@ -18,6 +18,11 @@ module.exports = (robot) ->
       .get() (err, res, body) ->
         msg.send JSON.parse(body).pug
 
+  robot.hear /placekitten/i, (msg) ->
+    msg.http("http://pugme.herokuapp.com/random")
+      .get() (err, res, body) ->
+        msg.send JSON.parse(body).pug
+
   robot.respond /pug bomb( (\d+))?/i, (msg) ->
     count = msg.match[2] || 5
     msg.http("http://pugme.herokuapp.com/bomb?count=" + count)

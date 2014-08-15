@@ -7,7 +7,7 @@ module.exports = (robot) ->
   new cronJob('0 */5 * * * *', everyFiveMinutes, null, true, tz)
   new cronJob('0 */1 * * * *', everyMinute, null, true, tz)
 
-  #room = 12345678
+  room = 12345678
 
   workdaysNineAm = ->
     robot.emit 'slave:command', 'wake everyone up', room
