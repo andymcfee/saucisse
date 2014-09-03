@@ -19,7 +19,7 @@ benoits = [
   "tapette",
   "gros porc",
   "benwah wah wah",
-  "Judas"
+  "I do not agree with Benoit."
 ]
 
 module.exports = (robot) ->
